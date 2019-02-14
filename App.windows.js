@@ -1,40 +1,34 @@
-// 	<ImageBackground source={require('./assets/images/background.png')} style={{ flex: 1, justifyContent: 'center', width: null, height: null }}>
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
 
 import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
   Text,
-  View,
-  Image,
-//  ImageBackground,
-  Button,
-  Alert
+  View
 } from 'react-native';
 
 const instructions =
   'Press Ctrl+R to reload,\n' +
-  'Shift+F10 for dev menu';
+  'Shift+F10 or shake for dev menu';
 
 export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-			<Text style={styles.welcome}>
-			  Welcome to Bryggjemann!
-			</Text>
-			<Image source={require('./assets/images/background.png')} />
-			<Button
-				onPress={() => {
-					Alert.alert('You tapped the button!');
-				}}
-				title="Learn More"
-				color="#841584"
-				accessibilityLabel="Learn more about this button"
-			/>
-			<Text style={styles.instructions}>
-			  {instructions}
-			</Text>
+        <Text style={styles.welcome}>
+          Welcome to React Native!
+        </Text>
+        <Text style={styles.instructions}>
+          To get started, edit App.windows.js
+        </Text>
+        <Text style={styles.instructions}>
+          {instructions}
+        </Text>
       </View>
     );
   }
@@ -45,10 +39,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#e4f9db',
+    backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 30,
+    fontSize: 20,
     textAlign: 'center',
     margin: 10,
   },
