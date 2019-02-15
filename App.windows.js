@@ -1,12 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
   Text,
   View
@@ -14,7 +7,7 @@ import {
 
 const instructions =
   'Press Ctrl+R to reload,\n' +
-  'Shift+F10 or shake for dev menu';
+  'Shift+F10 for dev menu';
 
 export default class App extends Component<{}> {
   render() {
