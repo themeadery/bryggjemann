@@ -6,12 +6,12 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity
-    Name="0ddd13c4-8532-4145-8f3d-81dc160da41c"
+ <Identity
+    Name="a5aeb441-bdf5-4cbe-a998-b978352d998f"
     Publisher="CN=matta"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="0ddd13c4-8532-4145-8f3d-81dc160da41c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="a5aeb441-bdf5-4cbe-a998-b978352d998f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>bryggjemann</DisplayName>

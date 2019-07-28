@@ -1,15 +1,18 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @format
+ */
+
 import React, { Component } from 'react';
 import {
+  AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
 
-const instructions =
-  'Press Ctrl+R to reload,\n' +
-  'Shift+F10 for dev menu';
-
-export default class App extends Component<{}> {
+class bryggjemann extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -17,10 +20,7 @@ export default class App extends Component<{}> {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit App.windows.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
+          To get started, edit app.windows.js
         </Text>
       </View>
     );
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#BBBBBB',
   },
   welcome: {
     fontSize: 20,
@@ -45,3 +45,5 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+AppRegistry.registerComponent('bryggjemann', () => bryggjemann);

@@ -1,8 +1,7 @@
-﻿<rn:ReactApplication
+﻿<Application
     x:Class="bryggjemann.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:rn="using:ReactNative"
-    RequestedTheme="Light">
+    xmlns:local="using:bryggjemann">
 
-</rn:ReactApplication>
+</Application>
